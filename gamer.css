@@ -5,20 +5,22 @@
     align-items: center;
     max-height: 50px;
     background-color:azure;
-    margin-top: 0px;    
+    margin-top: 0px;  
+   
 }
 .logo-container{
     display: flex;
     gap: 5px;
     align-items: center;
     width: 50%;
-    justify-content: center;
+  padding-left: 300px;
+  
 }
 .menu-container{
     display: flex;
     gap:20px;
     width: 50%;
-    justify-content: center;
+   padding-left: 600px;
     align-items: center;
 }
 
@@ -36,7 +38,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
-    background-color: rgb(251, 221, 226);
+    background-color: rgb(245, 239, 240);
 }
 
 .banner-img img{
@@ -45,11 +47,11 @@
 }
 .banner-img{
     width: 50%;
-    padding-right: 350px;
+    padding-right: 280px;
     
 }
 .banner-details{
-   padding-left: 400px;
+   padding-left: 300px;
     width: 50%;
 
 
@@ -70,7 +72,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(251, 221, 226);
+    background-color: rgb(245, 239, 240);
 
 }
 .banner-2 img{
@@ -94,3 +96,57 @@
     background-color: rgb(255, 130, 228);
 
 }
+/* game section */
+
+.game-container{
+  background-color:rgb(251, 249, 245);
+ padding-top: 20px;
+}
+.game-details{
+    text-align: center;
+}
+.game-details p{
+    text-align: center;
+
+}
+.game-cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.game-cards div{
+    width: 340px;
+    height: 480px;
+}
+
+
+/* review section */
+.review-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-left:400px;
+    background-color: rgb(251, 249, 245);
+    padding-bottom: 150px;
+}
+.review-card{
+    height: 725px;
+    width: 780px;
+    
+}
+
+.review-cat{
+    position: relative;
+    height: 365px;
+    width: 320px;
+    top: -200px;
+    left:-150px ;
+ 
+}
+
+.review-man{
+    height: 650px;
+    width: 635px;
+}
+/* another review */
