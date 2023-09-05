@@ -1,0 +1,63 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    max-height: 50px;
+    background-color:azure;
+    margin-top: 0px;    
+}
+.logo-container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+}
+.menu-container{
+    display: flex;
+    gap:20px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-logo{
+    width: 40px;
+    height: 30px;
+}
+/* banner 1 */
+
+.banner-1{
+    display: flex;
+    
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.banner-img img{
+    width: 700px;
+    height: 600px;
+}
+.banner-img{
+    width: 50%;
+    padding-right: 350px;
+    
+}
+.banner-details{
+   padding-left: 400px;
+    width: 50%;
+
+
+    
+}
+.banner-details button{
+    padding: 10px;
+    color: rgb(10, 10, 10);
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+}
