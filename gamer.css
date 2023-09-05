@@ -159,6 +159,7 @@
     padding-top: 30px;
     padding-right: 100px;
     gap: 150px;
+    padding-bottom: 200px;
 }
 .review-demon{
 height: 650px;
@@ -170,4 +171,59 @@ width: 318px;
 position: relative;
 top: -200px;
 left: 500px;
+}
+/* Career section */
+.career-section{
+    background-color: rgb(244, 32, 184);
+    color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.career-container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.p-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.p-1-container{
+    padding-left: 225px;
+}
+
+/* game section */
+.games-container{
+
+    display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+align-content: center;
+margin-top: 50px;
+padding-left: 300px;
+padding-right: 300px;
+}
+.single-game{
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: none;
+    flex-basis: 200px;
+    background-color: #fcf9fb;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.single-game:hover{
+
+    background-color: aliceblue;
+    color: rgb(242, 40, 209);
+    border: 2px solid rgb(242, 40, 209);
 }
