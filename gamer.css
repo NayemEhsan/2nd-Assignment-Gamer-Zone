@@ -36,6 +36,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
+    background-color: rgb(251, 221, 226);
 }
 
 .banner-img img{
@@ -54,10 +55,42 @@
 
     
 }
+.banner-details p{
+    text-align: start;
+}
 .banner-details button{
     padding: 10px;
     color: rgb(10, 10, 10);
     border-radius: 10px;
     border: none;
     color: aliceblue;
+}
+/* banner 2 */
+.banner-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(251, 221, 226);
+
+}
+.banner-2 img{
+    width: 850px;
+    height: 450px;
+    padding-left: 300px;
+    border-radius: 30px;
+}
+.banner-details-2{
+    padding-right: 300px;
+}
+.banner-details-2 h1,p,h5{
+    text-align: end;
+}
+.banner-details-2 button{
+    margin-left:  392px;
+    padding: 10px;
+    color: rgb(252, 250, 250);
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 130, 228);
+
 }
